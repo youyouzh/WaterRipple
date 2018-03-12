@@ -7,7 +7,7 @@
     <title>HTML5 canvas水波纹动画特效</title>
 
     <style type="text/css">
-        html, body, div, span, applet, object, iframe{
+        html, body, div, span, object, iframe{
             margin: 0;
             padding: 0;
             border: 0;
@@ -269,7 +269,7 @@ function renderRipple() {
             dropRadius: 3,//radius of the ripple
             width: 800,//width
             height: 500,//height
-            delay: 3,//if auto param === true. 1 === 1 second delay for animation
+            delay: 1,//if auto param === true. 1 === 1 second delay for animation
             auto: 1//if auto param === true, animation starts on it´s own
 
         };
@@ -298,7 +298,7 @@ function renderRipple() {
         document.onkeydown = function(e) {
             var event = e || window.event || arguments.callee.caller.arguments[0];
             if(event && event.keyCode==13){ // enter 键
-                waterRippleEffect.disturb( 20, 20);
+                waterRippleEffect.disturb( 200, 200);
 
             }
         }
