@@ -1,6 +1,9 @@
 # water_ripple
 a water ripple effect smoothly 
 
+# Demo
+the Demo site: <http://asset.uusama.com/example/water_ripple.html>
+
 # Usage
 Include the script in your page before you use.Then call it like down:
 ```javascript
