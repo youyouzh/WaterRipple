@@ -70,6 +70,7 @@ function WaterRipple(element, settings) {
     function loadImage() {
         image = new Image();
         image.src = settings.image;
+        image.crossOrigin = 'anonymous';
         image.onload = function() {
             init();
         }
